@@ -7,7 +7,7 @@ require 'haml'
 
 #task default: :compile
 
-task :default => :compile
+task :default => :test
 
 task :compile do
   FileList.new('./src/*.html.haml').each do |filename|
