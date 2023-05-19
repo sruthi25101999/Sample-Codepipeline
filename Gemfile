@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
-gem "rake"
+gem "rake-0.9.6"
 gem "haml"
 
